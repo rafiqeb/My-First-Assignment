@@ -1,2 +1,64 @@
 
+/* banner-section */
+.banner-section{
+    max-width: 1440px;
+    height: 652px;
+    /* border: 2px solid red; */
+    background-image: url(../assets/background.jpg);
+    /* background-repeat: no-repeat; */
+    
+}
 
+.benner-poster{
+    width: 998px;
+    height: 581px;
+    /* border: 2px solid blue; */
+    margin: 25px 221px 45px 221px;
+}
+
+.poster-parents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster-image{
+    width: 320px;
+    height: 240px;
+    /* border: 2px solid green; */
+}
+.poster-image img{
+    width: 320px;
+    height: 240px;
+}
+
+.poster-text{
+    width: 998px;
+    height: 309px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poster-text h1{
+    color: chartreuse;
+    font-size: 48px;
+    font-weight: 800px; 
+}
+.poster-text p{
+    color: chartreuse;
+    font-size: 16px;
+    font-weight: 400;
+}
+.poster-text button{
+    margin-top: 50px;
+    font-size: 20px;
+    font-size: 600;
+    background-color: chartreuse;
+    width: 208px;
+    height: 66px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+}
