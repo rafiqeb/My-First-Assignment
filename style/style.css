@@ -154,3 +154,30 @@
     height: 550px;
     margin-left: 25px;
 }
+
+/* target-section */
+
+.target-section{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+.target-text{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+.target-card{
+    width: 1140px;
+    height: 300px;
+    margin-top: 48px;
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 50px;
+}
+.target-card button{
+    border: none;
+}
