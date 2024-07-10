@@ -58,7 +58,7 @@
     margin-top: 50px;
     font-size: 20px;
     font-size: 600;
-    background-color: chartreuse;
+    background-color: rgb(48, 146, 146);
     width: 208px;
     height: 66px;
     padding: 21px 24px 21px 24px;
@@ -193,14 +193,16 @@
     background-image: url(../assets/handshake.jpg);
     background-size: 1140px 314px;
 }
+
 .footer-text{
     width: 730px;
     height: 104px;
     margin: 0 auto;
-    margin-top: 64px;
     text-align: center;
-    color: white;
+    color: black;
+    margin-top: 64px;
 }
+
 .footer-button{
     width: 730px;
     height: 104px;
@@ -227,5 +229,5 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
