@@ -217,5 +217,15 @@
     border-radius: 5px;
     text-align: center;
     border: none;
-    
+}
+    /* link-section */
+.link-section{
+    width: 900px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid green;
 }
