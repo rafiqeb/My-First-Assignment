@@ -161,6 +161,7 @@
     width: 1140px;
     height: 463px;
     margin: 0 auto;
+    margin-top: 50px;
     /* border: 2px solid red; */
 }
 .target-text{
@@ -180,4 +181,41 @@
 }
 .target-card button{
     border: none;
+}
+
+    /* footer section start */
+.footer-section{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* border: 2px solid blue; */
+    background-image: url(../assets/handshake.jpg);
+    background-size: 1140px 314px;
+}
+.footer-text{
+    width: 730px;
+    height: 104px;
+    margin: 0 auto;
+    margin-top: 64px;
+    text-align: center;
+    color: white;
+}
+.footer-button{
+    width: 730px;
+    height: 104px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+.footer-button input{
+    width: 580px;
+    height: 38px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    
 }
