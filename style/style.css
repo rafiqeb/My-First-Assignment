@@ -186,6 +186,7 @@
 }
 
     /* footer section start */
+
 .footer-section{
     width: 1140px;
     height: 314px;
@@ -194,6 +195,10 @@
     /* border: 2px solid blue; */
     background-image: url(../assets/handshake.jpg);
     background-size: 1140px 314px;
+    font-size: larger;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-text{
@@ -201,16 +206,17 @@
     height: 104px;
     margin: 0 auto;
     text-align: center;
-    color: black;
+    /* color: black; */
     margin-top: 64px;
+    /* border: 2px solid blue; */
 }
 
 .footer-button{
     width: 730px;
     height: 104px;
     margin: 0 auto;
-    margin-top: 50px;
-    color: white;
+    /* margin-top: 50px; */
+    /* color: white; */
     display: flex;
     justify-content: space-between;
     align-items: center;
